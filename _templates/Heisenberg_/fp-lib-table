@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ModuleTemplate") (type "KiCad") (uri "${KIPRJMOD}/ModuleTemplate.pretty") (options "") (descr ""))
+	(lib (name "ModuleTemplate") (type "KiCad") (uri "C:/Users/culle/University of Central Florida/Knights Experimental Rocketry_GRP - LTI/1) CAD/2026-2027/Electronics/MDFC Template/MDFC/MDFC Template/ModuleTemplate.pretty") (options "") (descr ""))
+	(lib (name "ModuleTemplate") (type "KiCad") (uri "${KIPRJMOD}/ModuleTemplate.pretty") (options "") (descr ""))
+	(lib (name "ModuleTemplate") (type "KiCad") (uri "C:/Users/culle/University of Central Florida/Knights Experimental Rocketry_GRP - LTI/1) CAD/2026-2027/Electronics/MDFC Template/All-up/ModuleTemplate.pretty") (options "") (descr ""))
+	(lib (name "ModuleTemplate") (type "KiCad") (uri "C:/Users/culle/University of Central Florida/Knights Experimental Rocketry_GRP - LTI/1) CAD/2026-2027/Electronics/MDFC Template/Power-Module/ModuleTemplate.pretty") (options "") (descr ""))
+)
