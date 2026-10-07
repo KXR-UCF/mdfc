@@ -56,3 +56,14 @@ Battery powered, 8 channel analog input, flight sensors/telemetry, servo output.
 * Record fast analog data in flight
 * Transmit flight data to ground via telemetry at the highest speed possible
 * Create a platform that can be expanded and upgraded by future students
+
+
+
+
+## Copyright
+
+Copyright © 2026 Knights Experimental Rocketry (KXR). All Rights Reserved.
+
+No permission is granted to reproduce, modify, distribute, manufacture from,
+or commercially use the contents of this repository without written
+authorization from KXR.
