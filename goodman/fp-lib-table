@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "MDFC Common") (type "KiCad") (uri "${KIPRJMOD}/../_libraries/mdfc-common.pretty") (options "") (descr ""))
+	(lib (name "Goodman Local") (type "KiCad") (uri "${KIPRJMOD}/goodman.pretty") (options "") (descr ""))
+)

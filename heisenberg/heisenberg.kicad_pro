@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Heisenberg_template.kicad_pro",
+    "filename": "heisenberg.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -656,8 +656,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Heisenberg_template.kicad_sch",
-        "name": "Heisenberg_template",
+        "filename": "Heisenberg.kicad_sch",
+        "name": "Heisenberg",
         "uuid": "52ec5281-98f9-4967-92c1-b39f2426ce6f"
       }
     ],
