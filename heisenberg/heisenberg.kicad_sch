@@ -5166,7 +5166,7 @@
 	)
 	(symbol
 		(lib_id "MDFC Common:S16B-XH-A")
-		(at 260.35 125.73 0)
+		(at 193.04 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5177,7 +5177,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6d8b7e2-95d3-4b3a-8adc-7cec631d56d9")
 		(property "Reference" "J4"
-			(at 267.97 123.1899 0)
+			(at 200.66 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5188,7 +5188,7 @@
 			)
 		)
 		(property "Value" "S16B-XH-A"
-			(at 267.97 125.7299 0)
+			(at 200.66 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5199,7 +5199,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_S16B-XH-A_1x16_P2.50mm_Horizontal"
-			(at 260.35 125.73 0)
+			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5211,7 +5211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 125.73 0)
+			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5222,7 +5222,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole, Right Angle 16 position 0.098 (2.50mm)"
-			(at 260.35 125.73 0)
+			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5234,7 +5234,7 @@
 			)
 		)
 		(property "MF" "JST Sales America Inc."
-			(at 260.35 125.73 0)
+			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5246,7 +5246,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 260.35 125.73 0)
+			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5258,7 +5258,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 260.35 125.73 0)
+			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5270,7 +5270,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/S16B-XH-A/JST/view-part/?ref=eda"
-			(at 260.35 125.73 0)
+			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5282,7 +5282,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S16B-XH-A/JST/view-part/?ref=snap"
-			(at 260.35 125.73 0)
+			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5294,7 +5294,7 @@
 			)
 		)
 		(property "MP" "S16B-XH-A"
-			(at 260.35 125.73 0)
+			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5306,7 +5306,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 260.35 125.73 0)
+			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5318,7 +5318,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST"
-			(at 260.35 125.73 0)
+			(at 193.04 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5327,6 +5327,18 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Label" "Servo"
+			(at 193.04 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
 			)
 		)
 		(pin "12"

@@ -1,0 +1,5 @@
+(version 1)
+(rule "Minimum text height and thickness 1"
+	(constraint text_height (min 1mm))
+	(constraint text_thickness (min 0.15mm))
+)
