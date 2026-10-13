@@ -4789,6 +4789,16 @@
 		)
 		(uuid "324f0224-ca26-4288-9b3a-631d44da48a9")
 	)
+	(text "text test\n5"
+		(exclude_from_sim no)
+		(at 209.296 149.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35daaf18-7c43-4fd7-a071-9421e674c39e")
+	)
 	(text "this side is the outter side of the tensy in layout\n\nall correlating pins here need to have their connecter on the outter side\n"
 		(exclude_from_sim no)
 		(at 166.37 17.018 0)
@@ -7095,7 +7105,7 @@
 		)
 		(uuid "d4b47659-68bf-4f47-ba90-22d0bce6cfb8")
 	)
-	(label "PWM_CS_B"
+	(label "PWM1_B"
 		(at 259.588 104.902 180)
 		(effects
 			(font
