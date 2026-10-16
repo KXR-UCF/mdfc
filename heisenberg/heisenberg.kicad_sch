@@ -4779,16 +4779,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "outer side of tthe connector\n"
-		(exclude_from_sim no)
-		(at 250.952 26.162 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "324f0224-ca26-4288-9b3a-631d44da48a9")
-	)
 	(text "text test\n5"
 		(exclude_from_sim no)
 		(at 209.296 149.098 0)
@@ -4798,16 +4788,6 @@
 			)
 		)
 		(uuid "35daaf18-7c43-4fd7-a071-9421e674c39e")
-	)
-	(text "this side is the outter side of the tensy in layout\n\nall correlating pins here need to have their connecter on the outter side\n"
-		(exclude_from_sim no)
-		(at 166.37 17.018 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8e518d08-bb4d-4bce-a3bc-062532b67f9c")
 	)
 	(junction
 		(at 59.436 60.198)
@@ -5197,7 +5177,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.472 55.372) (xy 232.918 55.372)
+			(xy 220.472 55.372) (xy 230.886 55.372)
 		)
 		(stroke
 			(width 0)
@@ -5387,7 +5367,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.738 42.672) (xy 195.072 42.672)
+			(xy 185.166 42.672) (xy 195.072 42.672)
 		)
 		(stroke
 			(width 0)
@@ -6485,6 +6465,16 @@
 		)
 		(uuid "1ac0743b-ba64-4e37-9741-5c4c8eabf8dd")
 	)
+	(label "PWM1_B"
+		(at 205.994 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ff5df0c-ea73-4b2b-839c-ebe2b15ed802")
+	)
 	(label "UART_B_TX8"
 		(at 263.906 99.822 180)
 		(effects
@@ -6525,15 +6515,15 @@
 		)
 		(uuid "2920a741-1362-4983-813c-476f0439ad6e")
 	)
-	(label "PWM_CS_A"
-		(at 232.918 55.372 180)
+	(label "A15_A"
+		(at 230.886 55.372 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "2e9855fc-67ec-4cd9-9b05-b502528702ce")
+		(uuid "2ee5235d-ec7e-4111-a3f5-1f5d1cb41dac")
 	)
 	(label "PWM_4"
 		(at 86.106 43.18 0)
@@ -6835,6 +6825,16 @@
 		)
 		(uuid "79051a9e-5628-442c-83d0-8c6b60885229")
 	)
+	(label "PWM_CS_A"
+		(at 185.166 42.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a9158ad-1093-4089-98c4-b950f21bc2ad")
+	)
 	(label "SPI_B_MISO1"
 		(at 212.09 97.282 0)
 		(effects
@@ -6995,6 +6995,16 @@
 		)
 		(uuid "b2eb1605-e67d-4de9-959a-8c6c972cfff2")
 	)
+	(label "A17_B"
+		(at 259.588 104.902 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bdfad180-517e-41a1-8c15-2f7882d8e0b7")
+	)
 	(label "GPIO_PWR"
 		(at 47.752 34.798 180)
 		(effects
@@ -7105,16 +7115,6 @@
 		)
 		(uuid "d4b47659-68bf-4f47-ba90-22d0bce6cfb8")
 	)
-	(label "PWM1_B"
-		(at 259.588 104.902 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d589a23f-fdb2-4085-9b76-cb9e95c1081b")
-	)
 	(label "A16_B"
 		(at 264.414 97.282 180)
 		(effects
@@ -7144,16 +7144,6 @@
 			(justify right bottom)
 		)
 		(uuid "dfae1c7b-5f1b-4a3f-9e25-abfbb9aa92fa")
-	)
-	(label "A17_B"
-		(at 205.994 92.202 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8c7c8a2-cbdd-42b3-9356-1a3f33d52cb7")
 	)
 	(label "A15_A"
 		(at 156.464 71.12 180)
@@ -7224,16 +7214,6 @@
 			(justify right bottom)
 		)
 		(uuid "f0a428fd-bc23-4da8-8e68-f1c7329d996d")
-	)
-	(label "A15_A"
-		(at 189.738 42.672 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4f79db0-2d90-4f52-b87e-08ccc23e0089")
 	)
 	(label "A17_B"
 		(at 156.464 66.04 180)
