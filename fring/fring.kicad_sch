@@ -977,6 +977,524 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Fring Local:Ethernet_Magjack_NEW_WE-RJ45_74984104400"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "T"
+				(at 0 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "Ethernet_Magjack_NEW_WE-RJ45_74984104400"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "WE-RJ45_74984104400:74984104400"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Ethernet_Magjack_NEW_WE-RJ45_74984104400_0_0"
+				(rectangle
+					(start -7.7406 -16.5261)
+					(end 11.3094 17.7639)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 15.24) (xy 6.35 15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 15.24) (xy 6.35 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 12.7) (xy 8.89 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -10.16) (xy 8.89 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -12.7) (xy -7.62 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -12.7) (xy 6.35 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 12.7) (xy 8.89 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 10.16) (xy 10.16 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -7.62) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -10.16) (xy 8.89 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 10.16) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "LED1_G+/Y-"
+					(at 2.54 5.08 0)
+					(effects
+						(font
+							(size 0.8636 0.8636)
+						)
+						(justify left)
+					)
+				)
+				(text "LED1_G-/Y+"
+					(at 2.54 2.54 0)
+					(effects
+						(font
+							(size 0.8636 0.8636)
+						)
+						(justify left)
+					)
+				)
+				(text "LED2_G+/Y-"
+					(at 2.54 0 0)
+					(effects
+						(font
+							(size 0.8636 0.8636)
+						)
+						(justify left)
+					)
+				)
+				(text "LED2_G-/Y+"
+					(at 2.54 -2.54 0)
+					(effects
+						(font
+							(size 0.8636 0.8636)
+						)
+						(justify left)
+					)
+				)
+				(pin passive line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(name "TD+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "TD-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "CD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "RD+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "RD-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "V1+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "V1-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "V2+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "V2-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -15.24 0)
+					(length 5.08)
+					(name "SHIELD1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -17.78 0)
+					(length 5.08)
+					(name "SHIELD2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Fring Local:POE_Regulator_AG9924-MT"
 			(pin_names
 				(offset 0.254)
@@ -1970,38 +2488,42 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ModuleTemplate:WE-RJ45_7499111447"
+		(symbol "power:+24V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016)
+				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "T"
-				(at 0 17.78 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Value" "WE-RJ45_7499111447"
-				(at -2.54 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "WE-RJ45_7499111447:7499111447"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2010,7 +2532,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
 			(property "Datasheet" ""
@@ -2024,7 +2545,7 @@
 					)
 				)
 			)
-			(property "Description" "10/100/1000BASE-T, THT, 1x1, Tab-up, with shield tabs, LED L: green/yellow, LED R: green/yelow, -40+85°C, for current mode PHYs"
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2033,10 +2554,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "MF" "Wurth Electronics"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2045,557 +2565,61 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
-					(justify bottom)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/7499111447/Wurth+Electronics/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "7499111447"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=492049&manufacturer=Wurth Electronics&part_name=7499111447&search_term=111447 wre"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/7499111447/Wurth+Electronics/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(symbol "WE-RJ45_7499111447_0_0"
-				(rectangle
-					(start -7.7406 -16.5261)
-					(end 11.3094 17.7639)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 15.24) (xy 6.35 15.24)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 15.24) (xy 6.35 12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 12.7) (xy 8.89 12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -10.16) (xy 8.89 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -12.7) (xy -7.62 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -12.7) (xy 6.35 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 12.7) (xy 8.89 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 10.16) (xy 10.16 10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -7.62) (xy 10.16 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -10.16) (xy 8.89 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 10.16) (xy 10.16 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "LED1_Y-/G+"
-					(at 2.54 5.08 0)
-					(effects
-						(font
-							(size 0.8636 0.8636)
-						)
-						(justify left)
-					)
-				)
-				(text "LED1_Y+/G-"
-					(at 2.54 2.54 0)
-					(effects
-						(font
-							(size 0.8636 0.8636)
-						)
-						(justify left)
-					)
-				)
-				(text "LED2_Y-/G+"
-					(at 2.54 0 0)
-					(effects
-						(font
-							(size 0.8636 0.8636)
-						)
-						(justify left)
-					)
-				)
-				(text "LED2_Y+/G-"
-					(at 2.54 -2.54 0)
-					(effects
-						(font
-							(size 0.8636 0.8636)
-						)
-						(justify left)
-					)
-				)
-				(pin passive line
-					(at -12.7 12.7 0)
-					(length 5.08)
-					(name "D1+"
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 10.16 0)
-					(length 5.08)
-					(name "D1-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 7.62 0)
-					(length 5.08)
-					(name "D2+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "D2-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -10.16 0)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "D3+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "D3-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "D4+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "D4-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 5.08 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -15.24 0)
-					(length 5.08)
-					(name "SHIELD1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "Z1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -17.78 0)
-					(length 5.08)
-					(name "SHIELD2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "Z2"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2603,10 +2627,513 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:-24V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "-24V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-24V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "-24V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-24V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 171.45 69.85) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d3a48b-33bb-4ad8-9ce7-db1206668382")
+	)
+	(wire
+		(pts
+			(xy 128.27 64.77) (xy 119.38 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2730e484-64dc-47a3-ab3c-85bb0e65cad3")
+	)
+	(wire
+		(pts
+			(xy 179.07 110.49) (xy 171.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4a015d-b2fc-4c97-97ae-8c1a1177112a")
+	)
+	(wire
+		(pts
+			(xy 53.34 77.47) (xy 49.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fdf0873-f855-48e2-9489-bc0386a7d150")
+	)
+	(wire
+		(pts
+			(xy 53.34 72.39) (xy 49.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344d348e-bd47-4560-9728-51fa67bc3b5f")
+	)
+	(wire
+		(pts
+			(xy 69.85 59.69) (xy 64.77 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9c52fc-d9e4-4668-aada-07e1669bfef8")
+	)
+	(wire
+		(pts
+			(xy 53.34 74.93) (xy 49.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce2b952-2830-4c5b-8165-df68eb669338")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 64.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53355d9b-e19d-4700-b1b6-e38d1d5993e7")
+	)
+	(wire
+		(pts
+			(xy 128.27 72.39) (xy 119.38 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5925f69b-7d28-441b-9ccc-ad94d9e24c16")
+	)
+	(wire
+		(pts
+			(xy 128.27 69.85) (xy 119.38 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76cab2dc-618b-4887-870d-58720f9d3f27")
+	)
+	(wire
+		(pts
+			(xy 53.34 69.85) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92937ca1-b40b-4dca-86d4-4003b6796168")
+	)
+	(wire
+		(pts
+			(xy 128.27 67.31) (xy 119.38 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959c9423-ee50-4976-be23-9fbe555a3654")
+	)
+	(wire
+		(pts
+			(xy 69.85 81.28) (xy 66.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e72f616-df3a-48bb-b35f-247359e11101")
+	)
+	(wire
+		(pts
+			(xy 69.85 83.82) (xy 66.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a7c7cd-2c11-4e43-bcad-e9f3881293e6")
+	)
+	(wire
+		(pts
+			(xy 179.07 107.95) (xy 175.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10cbde4-c3c3-4129-ab8f-1330e2c3ae40")
+	)
+	(label "VIN_N_2"
+		(at 105.41 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "115ce396-64c2-44a3-8d8d-3145c6a8b0e1")
+	)
+	(label "V2+"
+		(at 66.04 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c332f2d-42d9-4221-b652-5999d89200c1")
+	)
+	(label "V1-"
+		(at 53.34 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dcb7810-e022-4b78-9837-e3a67a8a4529")
+	)
+	(label "V2-"
+		(at 66.04 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d5d9169-5fb8-41aa-91c1-061d19c93aab")
+	)
+	(label "VIN_N_1"
+		(at 119.38 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "517e48b9-1b4a-4a90-a225-18b6a4728794")
+	)
+	(label "V2-"
+		(at 53.34 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e564ae3-22b7-44c3-9b51-18aeaa717917")
+	)
+	(label "V1-"
+		(at 64.77 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79055fad-8786-4aef-9ebf-64585d478580")
+	)
+	(label "V2+"
+		(at 53.34 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81c5ed42-7edc-4742-8be1-389a2df8f3b9")
+	)
+	(label "V1+"
+		(at 53.34 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b845d2d-4acd-48e6-a770-a812822bc00f")
+	)
+	(label "VIN_P_1"
+		(at 119.38 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9651412f-9300-4330-8475-2d89b61e13b4")
+	)
+	(label "V1+"
+		(at 64.77 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a57d2b1e-8244-48f1-baf6-831545fade10")
+	)
+	(label "VIN_N_1"
+		(at 105.41 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afc27ba2-d5bb-434d-9b83-0e905c6df7c2")
+	)
+	(label "VIN_P_1"
+		(at 105.41 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b23fa5a3-4837-4aed-82f0-96068744ca9c")
+	)
+	(label "VIN_P_2"
+		(at 105.41 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1eaf243-1848-4405-ad3d-b5c77698a778")
+	)
+	(label "VIN_N_2"
+		(at 119.38 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e22c88ad-0fdb-4ef2-a61d-51c5ea533cf2")
+	)
+	(label "VIN_P_2"
+		(at 119.38 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e392240b-1eba-40af-bff5-e0e70399d626")
+	)
+	(symbol
+		(lib_id "power:-24V")
+		(at 171.45 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05f8429d-82ee-47db-b2b7-4e9b99cdf834")
+		(property "Reference" "#PWR02"
+			(at 171.45 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-24V"
+			(at 171.45 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-24V\""
+			(at 171.45 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9c8a4e6-58ba-4c28-ae41-fa45e76da5b1")
+		)
+		(instances
+			(project "fring"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Fring Local:Rectifier_DF02S")
-		(at 82.55 54.61 0)
+		(at 87.63 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2617,7 +3144,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ac1ccfd-3cb1-4899-a265-719b53c0e3c6")
 		(property "Reference" "U1"
-			(at 82.55 46.99 0)
+			(at 87.63 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2627,7 +3154,7 @@
 			)
 		)
 		(property "Value" "Rectifier_DF02S"
-			(at 82.55 49.53 0)
+			(at 87.63 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2637,7 +3164,7 @@
 			)
 		)
 		(property "Footprint" "DF02S:SOT508P985X260-4N"
-			(at 82.55 54.61 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2649,7 +3176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 54.61 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2660,7 +3187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 54.61 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2671,7 +3198,7 @@
 			)
 		)
 		(property "SUPPLIER" "Fairchild"
-			(at 82.55 54.61 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +3210,7 @@
 			)
 		)
 		(property "MPN" "DF02S"
-			(at 82.55 54.61 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2695,7 +3222,7 @@
 			)
 		)
 		(property "OC_NEWARK" "18C6122"
-			(at 82.55 54.61 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2707,7 +3234,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1467466"
-			(at 82.55 54.61 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2719,7 +3246,7 @@
 			)
 		)
 		(property "PACKAGE" "SDIP-4"
-			(at 82.55 54.61 0)
+			(at 87.63 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2753,7 +3280,8 @@
 	)
 	(symbol
 		(lib_id "Fring Local:POE_Regulator_AG9924-MT")
-		(at 119.38 99.06 0)
+		(at 168.91 64.77 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2761,10 +3289,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c3227ce-de4d-482d-8cc1-5045506754ae")
 		(property "Reference" "U2"
-			(at 139.7 88.9 0)
+			(at 148.59 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2774,7 +3301,7 @@
 			)
 		)
 		(property "Value" "POE_Regulator_AG9924-MT"
-			(at 139.7 91.44 0)
+			(at 148.59 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2784,7 +3311,7 @@
 			)
 		)
 		(property "Footprint" "AG9924-MT_SLV"
-			(at 119.38 99.06 0)
+			(at 168.91 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2796,7 +3323,7 @@
 			)
 		)
 		(property "Datasheet" "AG9924-MT"
-			(at 119.38 99.06 0)
+			(at 168.91 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2808,7 +3335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 99.06 0)
+			(at 168.91 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,6 +3373,126 @@
 			(project "fring"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fring Local:Ethernet_Magjack_NEW_WE-RJ45_74984104400")
+		(at 36.83 69.85 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "39a5c340-58cb-467c-b185-ae7f5b425ec5")
+		(property "Reference" "T1"
+			(at 35.0456 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ethernet_Magjack_NEW_WE-RJ45_74984104400"
+			(at 35.0456 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "WE-RJ45_74984104400:74984104400"
+			(at 36.83 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "183bccd6-39c5-4d95-aa46-e725214c247c")
+		)
+		(pin "5"
+			(uuid "3156da64-1ce5-45d4-8808-a9a3cac58bec")
+		)
+		(pin "11"
+			(uuid "bd6d7e48-ef38-49d9-b1a5-7c52cc3b789a")
+		)
+		(pin "3"
+			(uuid "042724e8-3221-4942-9d05-6863865afec6")
+		)
+		(pin "2"
+			(uuid "5e612d8f-95fd-4b3f-9192-dd8326251137")
+		)
+		(pin "10"
+			(uuid "a983d6dc-9ec4-4595-b17e-c3344735be7d")
+		)
+		(pin "13"
+			(uuid "0a28b6d7-1733-4776-89fe-4bd3207687e3")
+		)
+		(pin "7"
+			(uuid "a2257c31-b706-4562-ad7c-1aecc09ba48c")
+		)
+		(pin "9"
+			(uuid "2d0ecca1-38cc-4d30-a3df-a2020e16d7b3")
+		)
+		(pin "1"
+			(uuid "7834318c-eac4-4053-ad5e-990125f138d8")
+		)
+		(pin "8"
+			(uuid "24ac4e2c-9e77-4fe3-be88-ab66d04b18b0")
+		)
+		(pin "12"
+			(uuid "8f1c7b70-9a03-441a-b4bc-d890f893fff6")
+		)
+		(pin "S2"
+			(uuid "31265888-2239-4a68-89eb-c22524ba27aa")
+		)
+		(pin "14"
+			(uuid "d209dfc2-948d-4258-b4f0-acaf5072371c")
+		)
+		(pin "S1"
+			(uuid "3d63f332-b046-429f-94b4-8a70afa1a21d")
+		)
+		(instances
+			(project "fring"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -3037,8 +3684,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Fring Local:24V_1A_Buck_Boost_LT3975IMSE-TRPBF")
-		(at 182.88 58.42 0)
+		(lib_id "power:+24V")
+		(at 168.91 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3047,9 +3694,87 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "50d02c01-b0cc-4b10-b13f-855eff9120a6")
+		(property "Reference" "#PWR01"
+			(at 168.91 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 168.91 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 168.91 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a1cdca6-922b-4342-b9ab-77d505427d6d")
+		)
+		(instances
+			(project "fring"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Fring Local:24V_1A_Buck_Boost_LT3975IMSE-TRPBF")
+		(at 240.03 95.25 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "5b4cb2cf-d02b-4c2e-b986-50c8a349a91e")
 		(property "Reference" "U3"
-			(at 213.36 48.26 0)
+			(at 209.55 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3058,8 +3783,8 @@
 				)
 			)
 		)
-		(property "Value" "24V_1A_Buck_Boost_LT3975IMSE-TRPBF"
-			(at 213.36 50.8 0)
+		(property "Value" "5V_2.5A_Buck_LT3975IMSE-TRPBF"
+			(at 209.55 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3069,7 +3794,7 @@
 			)
 		)
 		(property "Footprint" "MSOP-16_MSE_LIT"
-			(at 182.88 58.42 0)
+			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3081,7 +3806,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3975f.pdf"
-			(at 182.88 58.42 0)
+			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3093,7 +3818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 58.42 0)
+			(at 240.03 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3165,7 +3890,7 @@
 	)
 	(symbol
 		(lib_id "Fring Local:Rectifier_DF02S")
-		(at 83.82 78.74 0)
+		(at 87.63 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3176,7 +3901,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bd52754-ba2d-4327-8c59-6c0c851a8dc8")
 		(property "Reference" "U4"
-			(at 83.82 71.12 0)
+			(at 87.63 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3186,7 +3911,7 @@
 			)
 		)
 		(property "Value" "Rectifier_DF02S"
-			(at 83.82 73.66 0)
+			(at 87.63 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3196,7 +3921,7 @@
 			)
 		)
 		(property "Footprint" "DF02S:SOT508P985X260-4N"
-			(at 83.82 78.74 0)
+			(at 87.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,7 +3933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 78.74 0)
+			(at 87.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3219,7 +3944,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 78.74 0)
+			(at 87.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3230,7 +3955,7 @@
 			)
 		)
 		(property "SUPPLIER" "Fairchild"
-			(at 83.82 78.74 0)
+			(at 87.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3242,7 +3967,7 @@
 			)
 		)
 		(property "MPN" "DF02S"
-			(at 83.82 78.74 0)
+			(at 87.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3254,7 +3979,7 @@
 			)
 		)
 		(property "OC_NEWARK" "18C6122"
-			(at 83.82 78.74 0)
+			(at 87.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3266,7 +3991,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1467466"
-			(at 83.82 78.74 0)
+			(at 87.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3278,7 +4003,7 @@
 			)
 		)
 		(property "PACKAGE" "SDIP-4"
-			(at 83.82 78.74 0)
+			(at 87.63 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3311,8 +4036,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-24V")
+		(at 171.45 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed652bd-6bff-49f4-b185-9a309b84005c")
+		(property "Reference" "#PWR03"
+			(at 171.45 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-24V"
+			(at 171.45 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-24V\""
+			(at 171.45 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0264704d-5fd7-4842-b4c5-a0fa06980882")
+		)
+		(instances
+			(project "fring"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ModuleTemplate:HLE-108-02-L-DV-K")
-		(at 252.73 69.85 0)
+		(at 264.16 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3322,7 +4125,7 @@
 		(dnp no)
 		(uuid "7602d236-ff01-4f0c-92cf-184070087087")
 		(property "Reference" "J1"
-			(at 252.73 52.07 0)
+			(at 264.16 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3332,7 +4135,7 @@
 			)
 		)
 		(property "Value" "HLE-108-02-L-DV-K"
-			(at 252.73 54.61 0)
+			(at 264.16 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3342,7 +4145,7 @@
 			)
 		)
 		(property "Footprint" "MDFC Common:SAMTEC_HLE-108-02-L-DV-K"
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3354,7 +4157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3365,7 +4168,7 @@
 			)
 		)
 		(property "Description" "HLE Series .100 Tiger Beam™ Cost-effective Single Beam Socket Strip"
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3377,7 +4180,7 @@
 			)
 		)
 		(property "MF" "Samtec Inc."
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3389,7 +4192,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3401,7 +4204,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3413,7 +4216,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/HLE-108-02-L-DV-K/Samtec+Inc./view-part/?ref=eda"
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3425,7 +4228,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3437,7 +4240,7 @@
 			)
 		)
 		(property "PARTREV" "R"
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3449,7 +4252,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/HLE-108-02-L-DV-K/Samtec+Inc./view-part/?ref=snap"
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3461,7 +4264,7 @@
 			)
 		)
 		(property "MP" "HLE-108-02-L-DV-K"
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3473,7 +4276,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +4288,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samtec Inc."
-			(at 252.73 69.85 0)
+			(at 264.16 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3497,7 +4300,7 @@
 			)
 		)
 		(property "Label" "Mainboard"
-			(at 252.73 81.534 0)
+			(at 264.16 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3566,9 +4369,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ModuleTemplate:WE-RJ45_7499111447")
-		(at 41.91 69.85 0)
-		(mirror y)
+		(lib_id "power:+24V")
+		(at 175.26 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3576,29 +4378,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7f41fea3-d2aa-434c-93bc-14476686ce98")
-		(property "Reference" "J3"
-			(at 40.1256 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WE-RJ45_7499111447"
-			(at 40.1256 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MDFC Common:7499111447"
-			(at 41.91 69.85 0)
+		(fields_autoplaced yes)
+		(uuid "8d5c6fe7-5ade-49a6-b946-78d81d9559cd")
+		(property "Reference" "#PWR04"
+			(at 175.26 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3606,11 +4389,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Value" "+24V"
+			(at 175.26 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 69.85 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3620,8 +4423,8 @@
 				)
 			)
 		)
-		(property "Description" "10/100/1000BASE-T, THT, 1x1, Tab-up, with shield tabs, LED L: green/yellow, LED R: green/yelow, -40+85°C, for current mode PHYs"
-			(at 41.91 69.85 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,157 +4432,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
-		)
-		(property "MF" "Wurth Electronics"
-			(at 41.91 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 41.91 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 41.91 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/7499111447/Wurth+Electronics/view-part/?ref=snap"
-			(at 41.91 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "7499111447"
-			(at 41.91 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=492049&manufacturer=Wurth Electronics&part_name=7499111447&search_term=111447 wre"
-			(at 41.91 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 41.91 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/7499111447/Wurth+Electronics/view-part/?ref=eda"
-			(at 41.91 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "Z2"
-			(uuid "6cd1dd32-06ee-4c6a-a3d3-a583cf6ac8fb")
-		)
-		(pin "Z1"
-			(uuid "0ffd4460-f743-4acb-807d-eb01126405ea")
-		)
-		(pin "2"
-			(uuid "e4722c98-21d7-415b-99c7-bb4d78241c7d")
-		)
-		(pin "6"
-			(uuid "6bd385ef-d3c1-4b04-8cb5-b26040968d31")
-		)
-		(pin "13"
-			(uuid "948e793f-56a8-4b90-ab15-b57a7b8ee77a")
-		)
-		(pin "14"
-			(uuid "fc7cb468-94c8-4dd8-adc2-028a09ead07b")
 		)
 		(pin "1"
-			(uuid "8d7b1431-7b98-4027-ba5c-31eca790e097")
-		)
-		(pin "5"
-			(uuid "fac049a0-0dbf-4f28-91f9-cb86bdf65bbb")
-		)
-		(pin "3"
-			(uuid "b8ebd970-99b3-4928-8493-488e23a153a1")
-		)
-		(pin "12"
-			(uuid "97294677-19c7-4db3-90fb-4ac48e677a3d")
-		)
-		(pin "10"
-			(uuid "41de4601-42f0-4d12-9d2c-cc5e466792bb")
-		)
-		(pin "7"
-			(uuid "d560bc63-606b-4777-acb6-1faa1e7b22d9")
-		)
-		(pin "8"
-			(uuid "b2f6c57d-7b46-4f66-ab9f-9d2319c4086f")
-		)
-		(pin "4"
-			(uuid "f74dc6c9-d00e-4672-a1f5-56f04a49e100")
-		)
-		(pin "9"
-			(uuid "084f2a49-890d-42c9-b8bc-ba50964dc069")
-		)
-		(pin "11"
-			(uuid "90c1972c-7a47-4811-a05c-ce4c76b47a96")
+			(uuid "14bcceb3-dff3-4403-b57f-cb5ab6e4c45d")
 		)
 		(instances
 			(project "fring"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "J3")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
