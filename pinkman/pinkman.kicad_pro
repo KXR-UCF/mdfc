@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -661,13 +661,17 @@
         "uuid": "52ec5281-98f9-4967-92c1-b39f2426ce6f"
       }
     ],
-    "used_designators": "J1",
+    "used_designators": "R9-14,J1,#PWR1-2,#PWR4-18,U1-4,#SYM1",
     "variants": []
   },
   "sheets": [
     [
       "52ec5281-98f9-4967-92c1-b39f2426ce6f",
       "pinkman"
+    ],
+    [
+      "6751c4ea-e8a5-4f63-b722-1630923b0681",
+      "Power and GNSS support"
     ]
   ],
   "text_variables": {},
