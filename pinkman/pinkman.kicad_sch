@@ -3037,16 +3037,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 63.5) (xy 168.91 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f7e4e9e-6e8d-45e8-bd2f-6ac5f53d2dcf")
-	)
-	(wire
-		(pts
 			(xy 143.51 49.53) (xy 171.45 49.53)
 		)
 		(stroke
@@ -3177,16 +3167,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 63.5) (xy 168.91 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5e210e5-2d05-4ee2-9dc1-ad7bd01e1120")
-	)
-	(wire
-		(pts
 			(xy 143.51 46.99) (xy 161.29 46.99)
 		)
 		(stroke
@@ -3224,16 +3204,6 @@
 			(type default)
 		)
 		(uuid "ea5f4d70-2910-47aa-84c1-93c9f4ae48b7")
-	)
-	(wire
-		(pts
-			(xy 72.39 49.53) (xy 72.39 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f73b8d6b-16ba-44b4-921a-7fccc26af774")
 	)
 	(wire
 		(pts
@@ -3470,6 +3440,84 @@
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 72.39 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94065abd-cb51-4d64-a9c7-fbe89b31a273")
+		(property "Reference" "#PWR04"
+			(at 72.39 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Earth"
+			(at 72.39 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 72.39 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81f29830-fb34-45e5-b718-25429517b3de")
+		)
+		(instances
+			(project "pinkman"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
