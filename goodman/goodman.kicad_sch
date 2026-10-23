@@ -4087,6 +4087,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LPF"
+		(exclude_from_sim no)
+		(at 256.032 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38ff21fa-4d0f-4931-86e5-9db77a996e98")
+	)
+	(text "5V Power Filter"
+		(exclude_from_sim no)
+		(at 74.168 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4efa3f6-e0ed-4d0d-91b6-1212faa088e5")
+	)
+	(text "Mosfet CH0"
+		(exclude_from_sim no)
+		(at 229.87 61.722 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8e00a0d-4004-4a20-8619-7ce6866be9c9")
+	)
 	(junction
 		(at 134.62 96.52)
 		(diameter 0)
@@ -4995,7 +5025,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 68.58 270)
+		(at 115.57 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5006,7 +5036,7 @@
 		(fields_autoplaced yes)
 		(uuid "698de80f-7364-4b5d-b395-15bbda10181a")
 		(property "Reference" "#PWR03"
-			(at 109.22 68.58 0)
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5017,14 +5047,14 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 68.5799 90)
+			(at 118.11 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
