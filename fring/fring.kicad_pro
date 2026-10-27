@@ -755,13 +755,17 @@
         "uuid": "52ec5281-98f9-4967-92c1-b39f2426ce6f"
       }
     ],
-    "used_designators": "#PWR1-4,CR1,J1-2,J4,T1,U1-4",
+    "used_designators": "#PWR1-19,C1-5,CR1,J1-2,J4,L1,R1-3,T1,U1-5",
     "variants": []
   },
   "sheets": [
     [
       "52ec5281-98f9-4967-92c1-b39f2426ce6f",
       "fring"
+    ],
+    [
+      "4caf53eb-62b9-4487-89c7-64ae1a94d22a",
+      "5V_2.5A_Buck_Converter"
     ]
   ],
   "text_variables": {},
