@@ -4779,16 +4779,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "text test\n5"
-		(exclude_from_sim no)
-		(at 209.296 149.098 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "35daaf18-7c43-4fd7-a071-9421e674c39e")
-	)
 	(junction
 		(at 59.436 60.198)
 		(diameter 0)
@@ -4820,28 +4810,16 @@
 		(uuid "5688a7a9-e740-456d-aa89-5e95b1ff7a3b")
 	)
 	(junction
-		(at 39.624 32.258)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61ce50c0-cc81-4baa-a986-4c75efb4b1db")
-	)
-	(junction
 		(at 59.436 50.038)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7052fe77-1d19-492d-b6e4-d4d2b132d600")
+		(uuid "67b60236-36b8-4058-807e-768fa98ecc81")
 	)
 	(junction
 		(at 215.138 82.042)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "814abf84-2fa0-499f-8ac3-bedbc97f4d60")
-	)
-	(junction
-		(at 59.436 27.178)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83e41722-4a2f-455a-8234-55e730bcc5d3")
 	)
 	(junction
 		(at 82.296 123.952)
@@ -4987,7 +4965,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.846 39.878) (xy 49.784 39.878)
+			(xy 55.88 40.894) (xy 56.896 40.894)
 		)
 		(stroke
 			(width 0)
@@ -5007,7 +4985,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.846 37.338) (xy 54.61 37.338)
+			(xy 37.846 37.338) (xy 59.436 37.338)
 		)
 		(stroke
 			(width 0)
@@ -5017,7 +4995,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.846 32.258) (xy 39.624 32.258)
+			(xy 37.846 32.258) (xy 53.594 32.258)
 		)
 		(stroke
 			(width 0)
@@ -5137,7 +5115,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.214 156.972) (xy 73.914 156.972)
+			(xy 61.214 156.972) (xy 80.01 156.972)
 		)
 		(stroke
 			(width 0)
@@ -5154,16 +5132,6 @@
 			(type default)
 		)
 		(uuid "17cafbc2-61a6-44dd-b32a-78b4f1e141de")
-	)
-	(wire
-		(pts
-			(xy 59.436 24.638) (xy 59.436 27.178)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a91324d-1518-4797-8ef7-c3897af92697")
 	)
 	(wire
 		(pts
@@ -5197,7 +5165,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.214 154.432) (xy 68.834 154.432)
+			(xy 61.214 154.432) (xy 74.676 154.432)
 		)
 		(stroke
 			(width 0)
@@ -5327,16 +5295,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.624 32.258) (xy 50.292 32.258)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34bb048d-c3fe-4e55-9525-be13b08472a1")
-	)
-	(wire
-		(pts
 			(xy 248.92 104.902) (xy 259.588 104.902)
 		)
 		(stroke
@@ -5407,7 +5365,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.834 151.892) (xy 61.214 151.892)
+			(xy 74.676 151.892) (xy 61.214 151.892)
 		)
 		(stroke
 			(width 0)
@@ -5437,7 +5395,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 45.72) (xy 93.98 45.72)
+			(xy 81.28 45.72) (xy 93.98 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5484,6 +5442,16 @@
 			(type default)
 		)
 		(uuid "496dea56-f34c-4033-9b86-e7187cb54f82")
+	)
+	(wire
+		(pts
+			(xy 80.518 35.56) (xy 93.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a95d0b1-3fb4-43af-a973-1361d1a85ef0")
 	)
 	(wire
 		(pts
@@ -5597,13 +5565,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.624 29.718) (xy 39.624 32.258)
+			(xy 55.88 39.878) (xy 37.846 39.878)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a18cefa-194b-41b7-8c30-a650b349a666")
+		(uuid "6b301b2c-9a3a-4e85-90db-37c4e89ab782")
 	)
 	(wire
 		(pts
@@ -5677,6 +5645,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 40.894) (xy 55.88 39.878)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78928c1c-b870-48b1-93fa-fa4e378a7924")
+	)
+	(wire
+		(pts
 			(xy 248.92 89.662) (xy 260.604 89.662)
 		)
 		(stroke
@@ -5687,7 +5665,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.214 144.272) (xy 68.58 144.272)
+			(xy 61.214 144.272) (xy 73.914 144.272)
 		)
 		(stroke
 			(width 0)
@@ -5697,13 +5675,23 @@
 	)
 	(wire
 		(pts
-			(xy 61.214 149.352) (xy 68.834 149.352)
+			(xy 61.214 149.352) (xy 74.422 149.352)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7db13dca-7af2-4e27-8107-c8943a53bf25")
+	)
+	(wire
+		(pts
+			(xy 80.518 35.814) (xy 80.518 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f148e0e-532c-4ef4-a24b-b9493892f0cd")
 	)
 	(wire
 		(pts
@@ -5717,7 +5705,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 42.418) (xy 37.846 42.418)
+			(xy 52.832 42.418) (xy 37.846 42.418)
 		)
 		(stroke
 			(width 0)
@@ -5797,7 +5785,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.106 40.64) (xy 93.98 40.64)
+			(xy 80.772 40.64) (xy 93.98 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5847,7 +5835,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.846 34.798) (xy 47.752 34.798)
+			(xy 37.846 34.798) (xy 51.054 34.798)
 		)
 		(stroke
 			(width 0)
@@ -5877,7 +5865,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.106 35.56) (xy 93.98 35.56)
+			(xy 81.026 35.814) (xy 80.518 35.814)
 		)
 		(stroke
 			(width 0)
@@ -5997,6 +5985,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.436 37.338) (xy 59.436 50.038)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b047029c-27fa-4b73-bc2f-b36972edc5f9")
+	)
+	(wire
+		(pts
 			(xy 220.472 40.132) (xy 232.664 40.132)
 		)
 		(stroke
@@ -6017,7 +6015,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.106 38.1) (xy 93.98 38.1)
+			(xy 80.772 38.1) (xy 93.98 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6027,7 +6025,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.834 146.812) (xy 61.214 146.812)
+			(xy 74.422 146.812) (xy 61.214 146.812)
 		)
 		(stroke
 			(width 0)
@@ -6087,7 +6085,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.106 43.18) (xy 93.98 43.18)
+			(xy 80.772 43.18) (xy 93.98 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6277,7 +6275,7 @@
 	)
 	(wire
 		(pts
-			(xy 37.846 29.718) (xy 39.624 29.718)
+			(xy 37.846 29.718) (xy 48.26 29.718)
 		)
 		(stroke
 			(width 0)
@@ -6337,16 +6335,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.436 27.178) (xy 59.436 50.038)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc8ae286-c575-42f4-8982-7ec9e033497f")
-	)
-	(wire
-		(pts
 			(xy 186.436 35.052) (xy 195.072 35.052)
 		)
 		(stroke
@@ -6365,8 +6353,8 @@
 		)
 		(uuid "032ecc2e-cd61-40b9-a0f6-328d5fe61d99")
 	)
-	(label "PWM_5"
-		(at 86.36 45.72 0)
+	(label "PWM_Servo_5"
+		(at 81.28 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6375,8 +6363,8 @@
 		)
 		(uuid "075e555e-c732-45de-b776-58cac48cdd4a")
 	)
-	(label "PWM_1"
-		(at 68.834 154.432 180)
+	(label "PWM_Servo_1"
+		(at 74.676 154.432 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6384,6 +6372,16 @@
 			(justify right bottom)
 		)
 		(uuid "08550a13-1c2b-455e-8299-ce653cbdcb82")
+	)
+	(label "A_CTX1_PWM"
+		(at 48.26 29.718 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a2591a9-b76a-4d66-b918-2b245960dc47")
 	)
 	(label "A7_RX5"
 		(at 156.464 40.64 180)
@@ -6394,6 +6392,16 @@
 			(justify right bottom)
 		)
 		(uuid "0a5e1eb8-72e7-484d-bea7-916a8ba880bf")
+	)
+	(label "A_RX6_SDA2_PWM"
+		(at 59.436 27.178 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ca31ab1-a54c-4203-b729-f2dc8b94a9a7")
 	)
 	(label "CAN_Servo_CTX3"
 		(at 77.216 134.112 180)
@@ -6525,8 +6533,8 @@
 		)
 		(uuid "2ee5235d-ec7e-4111-a3f5-1f5d1cb41dac")
 	)
-	(label "PWM_4"
-		(at 86.106 43.18 0)
+	(label "PWM_Servo_4"
+		(at 80.772 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6535,8 +6543,8 @@
 		)
 		(uuid "33844509-fcb7-454c-a7dc-0f87dbbfb3d0")
 	)
-	(label "PWM_1"
-		(at 86.106 35.56 0)
+	(label "PWM_Servo_1"
+		(at 81.026 35.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6544,6 +6552,16 @@
 			(justify left bottom)
 		)
 		(uuid "35a90ad3-a512-489b-94b9-5d888365fb1f")
+	)
+	(label "A_CRX1_PWM"
+		(at 51.054 34.798 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36e6e912-8c1b-46af-a179-927b880c4e35")
 	)
 	(label "SPI_B_SCK1"
 		(at 81.534 73.66 0)
@@ -6615,8 +6633,8 @@
 		)
 		(uuid "4444408e-d41d-46de-9832-576d9d23a2e9")
 	)
-	(label "PWM_4"
-		(at 68.834 146.812 180)
+	(label "PWM_Servo_4"
+		(at 74.422 146.812 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6675,7 +6693,7 @@
 		)
 		(uuid "530f87ef-9431-466a-87d2-5d7df54b8d9e")
 	)
-	(label "GPIO_PWR"
+	(label "GPIO_PMOD"
 		(at 82.804 86.36 0)
 		(effects
 			(font
@@ -6745,16 +6763,6 @@
 		)
 		(uuid "649a7906-ea1b-4c2d-9ac5-25d6f30b15b0")
 	)
-	(label "A_CRX1_PWM"
-		(at 50.292 44.958 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "669bf26c-ae2a-4d4a-b29e-86be0219d19d")
-	)
 	(label "A16_B"
 		(at 156.464 68.58 180)
 		(effects
@@ -6804,16 +6812,6 @@
 			(justify right bottom)
 		)
 		(uuid "76c0c355-3d68-40ba-894e-37c29386f3e6")
-	)
-	(label "A_TX6_SCL2_PWM"
-		(at 54.61 42.418 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "76c9d9ef-c681-4e74-a198-34850db49f8e")
 	)
 	(label "SPI_B_SCK1"
 		(at 211.582 104.902 0)
@@ -6895,8 +6893,8 @@
 		)
 		(uuid "8a76fc3d-d81f-452c-aa37-c0d4be9af5d0")
 	)
-	(label "PWM_3"
-		(at 68.834 149.352 180)
+	(label "PWM_Servo_3"
+		(at 74.422 149.352 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6935,6 +6933,16 @@
 		)
 		(uuid "9c4aef0b-66f0-4817-a4cc-57aea46c9a4a")
 	)
+	(label "A_TX6_SCL2_PWM"
+		(at 53.594 32.258 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9c94c7f6-bd79-4243-bf90-697ff3607a4a")
+	)
 	(label "UART_A_RX7"
 		(at 231.14 52.832 180)
 		(effects
@@ -6955,8 +6963,8 @@
 		)
 		(uuid "acc36356-19f2-43ae-9c0a-54a57a817b3c")
 	)
-	(label "PWM_5"
-		(at 68.58 144.272 180)
+	(label "PWM_Servo_5"
+		(at 73.914 144.272 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7005,18 +7013,8 @@
 		)
 		(uuid "bdfad180-517e-41a1-8c15-2f7882d8e0b7")
 	)
-	(label "GPIO_PWR"
-		(at 47.752 34.798 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf247d35-7090-4bdf-bbb4-d36cd39439c1")
-	)
-	(label "PWM_2"
-		(at 68.834 151.892 180)
+	(label "PWM_Servo_2"
+		(at 74.676 151.892 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7035,8 +7033,8 @@
 		)
 		(uuid "c319559b-0cc1-491e-b5c2-2acfd0d2fdf9")
 	)
-	(label "PWM_3"
-		(at 86.106 40.64 0)
+	(label "PWM_Servo_3"
+		(at 80.772 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7075,8 +7073,8 @@
 		)
 		(uuid "cba26123-418b-4de3-9546-949ebaf56011")
 	)
-	(label "PWM_2"
-		(at 86.106 38.1 0)
+	(label "PWM_Servo_2"
+		(at 80.772 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7145,6 +7143,16 @@
 		)
 		(uuid "dfae1c7b-5f1b-4a3f-9e25-abfbb9aa92fa")
 	)
+	(label "GPIO_PMOD"
+		(at 59.436 24.638 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8bc32c6-cb1b-47ab-a82b-f1e168d57a9d")
+	)
 	(label "A15_A"
 		(at 156.464 71.12 180)
 		(effects
@@ -7175,16 +7183,6 @@
 		)
 		(uuid "ead0ed48-407a-4cbb-bb74-cf9dba2d5e92")
 	)
-	(label "A_CTX1_PWM"
-		(at 49.784 39.878 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb3086a9-1679-4892-86e5-6c41cbf3256e")
-	)
 	(label "SPI_A_MOSI"
 		(at 82.296 58.42 0)
 		(effects
@@ -7194,16 +7192,6 @@
 			(justify left bottom)
 		)
 		(uuid "edcaf7ac-55ee-4bc0-be3d-e2f4a59fc2c8")
-	)
-	(label "A_RX6_SDA2_PWM"
-		(at 54.61 37.338 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee094964-e8c0-4028-8a61-f85959cb9b70")
 	)
 	(label "A14_A"
 		(at 156.464 73.66 180)
@@ -7254,84 +7242,6 @@
 			(justify right bottom)
 		)
 		(uuid "fcf780d4-f267-47e0-b929-42a5bf810678")
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 56.134 47.498 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e9855f9-088a-49cf-88ae-b39904e94921")
-		(property "Reference" "#PWR015"
-			(at 56.134 51.308 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 56.134 42.926 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.134 47.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 56.134 47.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 56.134 47.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d19078ee-b4d3-453e-af74-aa91bc7886ef")
-		)
-		(instances
-			(project "heisenberg"
-				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -7747,7 +7657,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 50.292 32.258 0)
+		(at 52.832 42.418 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7756,9 +7666,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b8200de-0aec-4cab-bd54-f1eaa9224175")
-		(property "Reference" "#PWR014"
-			(at 50.292 36.068 0)
+		(uuid "52b504df-d3c1-4448-a2c2-1c6333cf2f39")
+		(property "Reference" "#PWR027"
+			(at 52.832 46.228 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7768,8 +7678,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 50.292 27.686 0)
+		(property "Value" "+24V"
+			(at 52.832 37.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7779,7 +7689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.292 32.258 0)
+			(at 52.832 42.418 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7790,7 +7700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.292 32.258 0)
+			(at 52.832 42.418 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7801,7 +7711,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.292 32.258 0)
+			(at 52.832 42.418 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7812,7 +7722,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc6f0e44-541b-4cda-8868-9dc8985d9d6b")
+			(uuid "744616da-d692-4cf5-bc65-6ceec948bbe6")
+		)
+		(instances
+			(project "heisenberg"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.292 44.958 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "622f1e6b-bf5d-4af1-983c-40c3e6c1bfd9")
+		(property "Reference" "#PWR014"
+			(at 50.292 51.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.292 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.292 44.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.292 44.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.292 44.958 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "939ecb96-2e6b-4eee-8613-c3e7c1e31efe")
 		)
 		(instances
 			(project "heisenberg"
@@ -7825,7 +7813,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 73.914 156.972 0)
+		(at 80.01 156.972 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7836,7 +7824,7 @@
 		(fields_autoplaced yes)
 		(uuid "74223e65-3d0b-4cd5-af0a-9e6b06e7881b")
 		(property "Reference" "#PWR016"
-			(at 73.914 160.782 0)
+			(at 80.01 160.782 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7847,7 +7835,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 73.914 152.4 0)
+			(at 80.01 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7857,7 +7845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.914 156.972 0)
+			(at 80.01 156.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7868,7 +7856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.914 156.972 0)
+			(at 80.01 156.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7879,7 +7867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 73.914 156.972 0)
+			(at 80.01 156.972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8542,6 +8530,84 @@
 			(project "heisenberg"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 56.134 47.498 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c51ddba3-7ee8-41a1-9963-8bdddac5bc86")
+		(property "Reference" "#PWR023"
+			(at 56.134 51.308 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 56.134 42.926 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.134 47.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.134 47.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 56.134 47.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ea36c9e-6a7d-4e9a-859e-5e8a9be4a53b")
+		)
+		(instances
+			(project "heisenberg"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9412,6 +9478,84 @@
 			(project "heisenberg"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 56.896 40.894 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f956f19e-1fa7-465b-81cd-1ac5098c1604")
+		(property "Reference" "#PWR026"
+			(at 56.896 44.704 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 56.896 36.322 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.896 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.896 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 56.896 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9714e6eb-42f8-48b7-b32d-b0e2e2c850c4")
+		)
+		(instances
+			(project "heisenberg"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
