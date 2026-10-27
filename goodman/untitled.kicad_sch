@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "cc281117-10d8-4ed5-a229-f3ba83da0cca")
+	(uuid "2d5153cc-532f-4e19-b052-3311053692de")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -2358,7 +2358,7 @@
 		)
 		(uuid "381aa4c7-4a23-4a9f-b549-1dcbb264aa40")
 	)
-	(label "ANA_CMC_CHANNEL5"
+	(label "ANA_INPUT_CHANNEL5"
 		(at 217.17 87.63 0)
 		(effects
 			(font
@@ -2378,7 +2378,7 @@
 		)
 		(uuid "5285dfb0-f0ff-4058-8220-db34a73e9f6e")
 	)
-	(label "ANA_CMC_CHANNEL7"
+	(label "ANA_INPUT_CHANNEL7"
 		(at 135.89 140.97 0)
 		(effects
 			(font
@@ -2408,7 +2408,7 @@
 		)
 		(uuid "9817b025-c9c9-46cc-bf38-7f84f5616c03")
 	)
-	(label "ANA_CMC_CHANNEL6"
+	(label "ANA_INPUT_CHANNEL6"
 		(at 46.99 148.59 0)
 		(effects
 			(font
@@ -2428,7 +2428,7 @@
 		)
 		(uuid "a02aa061-4d9f-4b5f-8752-4f36e4c0648f")
 	)
-	(label "ANA_CMC_CHANNEL4"
+	(label "ANA_INPUT_CHANNEL4"
 		(at 134.62 86.36 0)
 		(effects
 			(font
@@ -2438,7 +2438,7 @@
 		)
 		(uuid "a4167af8-fb5d-468c-b604-5b6673f7c261")
 	)
-	(label "ANA_CMC_CHANNEL1"
+	(label "ANA_INPUT_CHANNEL1"
 		(at 132.08 19.05 0)
 		(effects
 			(font
@@ -2458,7 +2458,7 @@
 		)
 		(uuid "c07dd6c4-7ee7-4040-a10b-08c6cf46bca2")
 	)
-	(label "ANA_CMC_CHANNEL0"
+	(label "ANA_INPUT_CHANNEL0"
 		(at 45.72 22.86 0)
 		(effects
 			(font
@@ -2468,7 +2468,7 @@
 		)
 		(uuid "cd6a12b6-c3c1-4e5f-ba49-b2f77c036cfa")
 	)
-	(label "ANA_CMC_CHANNEL2"
+	(label "ANA_INPUT_CHANNEL2"
 		(at 215.9 21.59 0)
 		(effects
 			(font
@@ -2478,7 +2478,7 @@
 		)
 		(uuid "cf0244e8-2678-4fc2-8519-02dc57c56b30")
 	)
-	(label "ANA_CMC_CHANNEL3"
+	(label "ANA_INPUT_CHANNEL3"
 		(at 46.99 87.63 0)
 		(effects
 			(font
