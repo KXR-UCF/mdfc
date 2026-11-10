@@ -11,6 +11,515 @@
 		(comment 1 "Schematic ")
 	)
 	(lib_symbols
+		(symbol "Better Pinkman Regulator:LTC3601EMSE_TRPBF"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 33.3756 9.1186 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTC3601EMSE_TRPBF"
+				(at 32.7406 6.5786 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LTC3601EMSE_TRPBF:MSOP-16_MSE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://analytics.oemsecrets.com/main.php?p=LTC3601EMSE%23TRPBF&m=Analog%20Devices&q=2901&n=Newark&table=api&media=datasheet&source=snapeda&event_link=https%3A%2F%2Fwww.analog.com%2Fmedia%2Fen%2Ftechnical-documentation%2Fdata-sheets%2F3601fc.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "Switching Voltage Regulators 1.5A, 15V, 4MHz Monolithic Synchronous Step-Down Regulator in MSOP-16E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://analytics.oemsecrets.com/main.php?p=LTC3601EMSE%23TRPBF&m=Analog%20Devices&q=2901&n=Newark&table=api&media=datasheet&source=snapeda&event_link=https%3A%2F%2Fwww.analog.com%2Fmedia%2Fen%2Ftechnical-documentation%2Fdata-sheets%2F3601fc.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DigiKey_Part_Number" "LTC3601EMSE#TRPBFCT-ND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Analog Devices"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "LTC3601EMSE#TRPBF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "MSOP-16 Linear Technology"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/LTC3601EMSE%23TRPBF/Analog+Devices/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "VENDOR" "Linear Technology"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "LTC3601EMSE_TRPBF_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -25.4)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -25.4) (xy 68.58 -25.4)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 68.58 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 68.58 -25.4) (xy 68.58 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 0 0 0)
+					(length 7.62)
+					(name "SW_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "SW"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "PGND_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "BOOST"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "INTVCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "VON"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "RT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 76.2 -20.32 180)
+					(length 7.62)
+					(name "FB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 76.2 -17.78 180)
+					(length 7.62)
+					(name "ITH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 76.2 -15.24 180)
+					(length 7.62)
+					(name "TRACK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 76.2 -12.7 180)
+					(length 7.62)
+					(name "RUN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 76.2 -10.16 180)
+					(length 7.62)
+					(name "VIN_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 76.2 -7.62 180)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 76.2 -5.08 180)
+					(length 7.62)
+					(name "MODE/SYNC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 76.2 -2.54 180)
+					(length 7.62)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 76.2 0 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
@@ -2931,460 +3440,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Pinkman Local:LTC3601EMSE-TRPBF"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 38.1 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LTC3601EMSE-TRPBF"
-				(at 38.1 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "MSOP-16_MSE_LIT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/3601fc.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LTC3601EMSE#TRPBF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MSOP-16_MSE_LIT MSOP-16_MSE_LIT-M MSOP-16_MSE_LIT-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LTC3601EMSE-TRPBF_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -25.4)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -25.4) (xy 68.58 -25.4)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 68.58 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 68.58 -25.4) (xy 68.58 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 7.62)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "BOOST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "INTVCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -15.24 0)
-					(length 7.62)
-					(name "VON"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "RT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 76.2 -20.32 180)
-					(length 7.62)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 76.2 -17.78 180)
-					(length 7.62)
-					(name "ITH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 76.2 -15.24 180)
-					(length 7.62)
-					(name "TRACK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 76.2 -12.7 180)
-					(length 7.62)
-					(name "RUN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 76.2 -10.16 180)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 76.2 -7.62 180)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 76.2 -5.08 180)
-					(length 7.62)
-					(name "MODE/SYNC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 76.2 -2.54 180)
-					(length 7.62)
-					(name "PGOOD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 76.2 0 180)
-					(length 7.62)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Pinkman Local:MAX-M10M-00B"
 			(pin_names
 				(offset 0.254)
@@ -4941,6 +4996,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Regulator\n"
+		(exclude_from_sim no)
+		(at 232.156 272.796 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c7e1b38-cfe6-4283-afa7-ed34adebd574")
+	)
 	(junction
 		(at 99.06 45.72)
 		(diameter 0)
@@ -5303,16 +5368,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 182.88) (xy 30.48 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41b95d52-6096-41f7-b4f4-d831020e49af")
-	)
-	(wire
-		(pts
 			(xy 278.13 157.48) (xy 294.64 157.48)
 		)
 		(stroke
@@ -5620,26 +5675,6 @@
 			(type default)
 		)
 		(uuid "8ba1fbd8-68ef-41f1-9d13-69dfc0dd3b28")
-	)
-	(wire
-		(pts
-			(xy 24.13 196.85) (xy 30.48 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e7064ac-7eab-4048-9127-f2d19a66757d")
-	)
-	(wire
-		(pts
-			(xy 45.72 196.85) (xy 46.99 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9934fbc1-98cc-4567-a1fc-265ad1226ee1")
 	)
 	(wire
 		(pts
@@ -6241,16 +6276,6 @@
 		)
 		(uuid "31c7b53a-e741-482d-998f-f40981e55443")
 	)
-	(label "GPS_SAFEBOOTN_0"
-		(at 45.72 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a0440e2-4920-40b1-8cac-2808a159406c")
-	)
 	(label "SPI_LoRa_MOSI_1"
 		(at 365.76 144.78 180)
 		(effects
@@ -6741,16 +6766,6 @@
 		)
 		(uuid "f2eecbdb-ddc0-4ada-b5c1-feeb7b037f20")
 	)
-	(label "GPS_RESETN_0"
-		(at 46.99 196.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f321db0a-742a-46ec-a4bb-066462e3ec34")
-	)
 	(label "I2C_IMU_DRDY_1"
 		(at 25.4 50.8 0)
 		(effects
@@ -7035,7 +7050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 279.0952 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -7078,142 +7093,6 @@
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Pinkman Local:LTC3601EMSE-TRPBF")
-		(at 196.85 245.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "10e1a8ae-3027-44bf-bc8b-ea15bb99260f")
-		(property "Reference" "Regulator"
-			(at 219.71 234.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LTC3601EMSE-TRPBF"
-			(at 219.71 237.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.1 1.1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Pinkman Local:MSOP-16_MSE_LIT"
-			(at 196.85 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 245.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "5V input, 3.3V output; 2MHz internal compensation"
-			(at 196.85 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "MPN" "LTC3601EMSE#TRPBF"
-			(at 196.85 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3911ae75-0929-4753-b447-85833186b1c8")
-		)
-		(pin "2"
-			(uuid "02507cf0-f574-4981-a029-c499cad1e68e")
-		)
-		(pin "3"
-			(uuid "4f0221c9-a932-4bd7-baaf-6922f5863c01")
-		)
-		(pin "4"
-			(uuid "70bfe805-ad60-4b22-a88f-8c5cec3188f8")
-		)
-		(pin "5"
-			(uuid "0735e0cc-e2bd-49bb-ba06-73bb532c3a24")
-		)
-		(pin "6"
-			(uuid "c8d6de9a-a08d-4339-9e85-582edaa15f7c")
-		)
-		(pin "7"
-			(uuid "62238c5b-0a11-459f-9376-3a4af866c5db")
-		)
-		(pin "8"
-			(uuid "ff853765-c6b4-40b3-9484-88ed8993f71f")
-		)
-		(pin "9"
-			(uuid "64c87695-edb4-467b-a807-00b8bfe1b498")
-		)
-		(pin "10"
-			(uuid "89619033-f2bc-476f-b794-5378fe281707")
-		)
-		(pin "11"
-			(uuid "0183a43f-ac97-4d12-96b9-1d05e8652dbd")
-		)
-		(pin "12"
-			(uuid "83d94491-2e38-4ac4-acb7-cfca07bba2e4")
-		)
-		(pin "13"
-			(uuid "05f5a7f8-3550-48ff-b5da-8d8800bea714")
-		)
-		(pin "14"
-			(uuid "dfdaf59c-7c12-424f-9f9d-8446d8f9e9e8")
-		)
-		(pin "15"
-			(uuid "e8f7b7b7-53ec-430a-882e-40ced12fa6f5")
-		)
-		(pin "16"
-			(uuid "4e47612a-bce9-4e50-bdba-472e719fa3ba")
-		)
-		(pin "17"
-			(uuid "f7745c07-e291-4b7c-aa13-d1ecb741345d")
-		)
-		(instances
-			(project "pinkman"
-				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "Regulator")
 					(unit 1)
 				)
 			)
@@ -7455,9 +7334,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 41.91 182.88 270)
-		(mirror x)
+		(lib_id "Device:LED")
+		(at 54.61 218.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7465,9 +7343,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1b4b85cf-1156-453c-9767-8741314d2583")
-		(property "Reference" "R6"
-			(at 41.91 176.784 90)
+		(uuid "253ad87e-c90c-4a6e-994f-2535f397dd4c")
+		(property "Reference" "D2"
+			(at 57.658 216.916 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7476,8 +7354,8 @@
 				)
 			)
 		)
-		(property "Value" "200"
-			(at 41.656 179.578 90)
+		(property "Value" "LED"
+			(at 51.308 216.916 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7486,8 +7364,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 41.91 184.658 90)
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
+			(at 54.61 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7498,7 +7376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 182.88 0)
+			(at 54.61 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7508,8 +7386,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 41.91 182.88 0)
+		(property "Description" "Light emitting diode"
+			(at 54.61 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7519,16 +7397,27 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "aa81aee4-49dc-4ba9-b7bc-857721822462")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "e3a2681f-66e0-4c3a-8cba-ae60ec7be201")
+			(uuid "68539c27-294f-498c-b36d-4d4eb72d41f5")
+		)
+		(pin "2"
+			(uuid "ea7e92d3-cac4-4856-b68c-010dc3b9f8aa")
 		)
 		(instances
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "R6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7608,6 +7497,86 @@
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 215.9 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "350a7bf8-27dc-4380-9af6-549ef97ca32d")
+		(property "Reference" "#PWR048"
+			(at 120.65 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 215.8999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "149c1577-f893-49ef-9f6c-b6a13f258a2c")
+		)
+		(instances
+			(project "pinkman"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -8408,7 +8377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c845757-3f94-4f9b-b118-dcf35992b0ef")
-		(property "Reference" "GPIO_Extender"
+		(property "Reference" "U5"
 			(at 82.55 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8550,7 +8519,7 @@
 		(instances
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "GPIO_Extender")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8567,7 +8536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "60e08bdb-80ce-4d6e-ac64-af2e37c8ed1f")
-		(property "Reference" "Barometer"
+		(property "Reference" "U1"
 			(at 157.48 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8589,7 +8558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinkman Local:QFN_22DFTR_STM"
+		(property "Footprint" "Pinkman Footprints:QFN_22DFTR_STM"
 			(at 134.62 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8665,7 +8634,7 @@
 		(instances
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "Barometer")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9087,7 +9056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 100.838 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -9130,96 +9099,6 @@
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 34.29 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7d24213d-a680-4488-9b75-fdbba1041662")
-		(property "Reference" "D3"
-			(at 32.7025 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Green LED"
-			(at 32.7025 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 34.29 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 34.29 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2670985e-ef75-48d3-ab9a-215a67d0aa0e")
-		)
-		(pin "1"
-			(uuid "7e5c9519-54ae-42f2-bbf2-bbc0e97dc306")
-		)
-		(instances
-			(project "pinkman"
-				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -9813,7 +9692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 119.888 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -10020,84 +9899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 24.13 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89654d93-1888-4d6c-9e02-a0292f6214e2")
-		(property "Reference" "#PWR048"
-			(at 24.13 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a295486d-d94d-48a2-9614-7f791a18b3c1")
-		)
-		(instances
-			(project "pinkman"
-				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 24.13 40.64 0)
 		(unit 1)
@@ -10255,6 +10056,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 110.49 215.9 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90b8a114-ccfe-4c8b-a13d-c9c795a27873")
+		(property "Reference" "D1"
+			(at 112.0775 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 112.0775 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
+			(at 110.49 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 110.49 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 110.49 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9144a43-085f-4184-9a97-bc8221088be9")
+		)
+		(pin "2"
+			(uuid "e93a97d0-8fc8-4947-a1d5-b1ef71ccd056")
+		)
+		(instances
+			(project "pinkman"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 328.93 73.66 0)
 		(unit 1)
@@ -10327,6 +10220,85 @@
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 218.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f4b3aab-c2fb-46b8-9fb4-5f5af010d07d")
+		(property "Reference" "#PWR051"
+			(at 44.45 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 218.4399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5eb592e1-1fe4-4f49-bf85-e700659ab4b2")
+		)
+		(instances
+			(project "pinkman"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10603,7 +10575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 187.6552 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -10741,7 +10713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb5f5d9a-67f1-4b73-b756-557286f6a7ae")
-		(property "Reference" "Cap"
+		(property "Reference" "Cap2"
 			(at 149.86 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10805,7 +10777,7 @@
 		(instances
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "Cap")
+					(reference "Cap2")
 					(unit 1)
 				)
 			)
@@ -10901,7 +10873,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd28de7b-cafb-4781-8a46-f6bed1449df8")
-		(property "Reference" "GPS"
+		(property "Reference" "U3"
 			(at 157.48 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10923,7 +10895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinkman Local:MOD18_MAX-M10M_UBL"
+		(property "Footprint" "Pinkman Footprints:MOD18_MAX-M10M_UBL"
 			(at 134.62 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -11023,7 +10995,7 @@
 		(instances
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "GPS")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11276,7 +11248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc747904-4cee-4980-a055-3949ab061809")
-		(property "Reference" "IMU"
+		(property "Reference" "U2"
 			(at 317.5 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11298,7 +11270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinkman Local:LGA-14L_2P5X3X0P83_STM"
+		(property "Footprint" "Pinkman Footprints:LGA-14L_2P5X3X0P83_STM"
 			(at 294.64 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11386,7 +11358,219 @@
 		(instances
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "IMU")
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Better Pinkman Regulator:LTC3601EMSE_TRPBF")
+		(at 196.85 245.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d15a7192-bcd9-44fd-a512-11efe67b27db")
+		(property "Reference" "U6"
+			(at 234.95 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTC3601EMSE_TRPBF"
+			(at 234.95 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Pinkman Footprints:MSOP-16_MSE_LIT"
+			(at 196.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://analytics.oemsecrets.com/main.php?p=LTC3601EMSE%23TRPBF&m=Analog%20Devices&q=2901&n=Newark&table=api&media=datasheet&source=snapeda&event_link=https%3A%2F%2Fwww.analog.com%2Fmedia%2Fen%2Ftechnical-documentation%2Fdata-sheets%2F3601fc.pdf"
+			(at 196.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "Switching Voltage Regulators 1.5A, 15V, 4MHz Monolithic Synchronous Step-Down Regulator in MSOP-16E"
+			(at 196.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://analytics.oemsecrets.com/main.php?p=LTC3601EMSE%23TRPBF&m=Analog%20Devices&q=2901&n=Newark&table=api&media=datasheet&source=snapeda&event_link=https%3A%2F%2Fwww.analog.com%2Fmedia%2Fen%2Ftechnical-documentation%2Fdata-sheets%2F3601fc.pdf"
+			(at 196.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTC3601EMSE#TRPBFCT-ND"
+			(at 196.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Analog Devices"
+			(at 196.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "LTC3601EMSE#TRPBF"
+			(at 196.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "MSOP-16 Linear Technology"
+			(at 196.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/LTC3601EMSE%23TRPBF/Analog+Devices/view-part/"
+			(at 196.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VENDOR" "Linear Technology"
+			(at 196.85 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "14"
+			(uuid "bf370ed0-f00c-42f2-a07a-8611d2b3e21d")
+		)
+		(pin "1"
+			(uuid "2c96bdac-3163-4e84-97f2-79d84561822a")
+		)
+		(pin "13"
+			(uuid "36262177-22c2-4ee7-a157-1b469bd3d2ec")
+		)
+		(pin "3"
+			(uuid "03fdd7c7-62f2-4c1f-8f46-ef26fd990d64")
+		)
+		(pin "5"
+			(uuid "3024e21a-531f-4675-af1f-6ca38da77ef9")
+		)
+		(pin "7"
+			(uuid "0f4dde7a-862d-4a5d-87b7-78d0514e065a")
+		)
+		(pin "9"
+			(uuid "e442def4-67c5-4280-a841-4f5485b705e6")
+		)
+		(pin "10"
+			(uuid "d8df21cf-f84f-49ea-a86b-c3d06627ca61")
+		)
+		(pin "15"
+			(uuid "12f13ae2-0834-49a9-bf7f-95174b6c8825")
+		)
+		(pin "6"
+			(uuid "639a9531-2633-4672-96ff-e3604d4519dc")
+		)
+		(pin "2"
+			(uuid "feeda5b7-ef32-420f-81bf-e4230bbaa391")
+		)
+		(pin "4"
+			(uuid "477a0d96-90f9-4ae9-a1f2-208ea94f85b6")
+		)
+		(pin "17"
+			(uuid "9afd92c2-1efb-4a6a-bcad-c998da541da0")
+		)
+		(pin "12"
+			(uuid "7ebcdb89-1771-4d4d-b7a9-9eb708135fb7")
+		)
+		(pin "11"
+			(uuid "428e2840-2ca1-44e6-a7bf-095bc6c568df")
+		)
+		(pin "16"
+			(uuid "9e4dc2e8-d416-4dc9-a91d-02a840ca7568")
+		)
+		(pin "8"
+			(uuid "222f251f-c5b1-4173-9d1a-65c2ccbb33c0")
+		)
+		(instances
+			(project "pinkman"
+				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -11632,84 +11816,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 182.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc6bb8fa-5caa-42a2-99ab-62db507d44b4")
-		(property "Reference" "#PWR051"
-			(at 24.13 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 187.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a64689b5-3265-4058-b06b-cdba3cae071f")
-		)
-		(instances
-			(project "pinkman"
-				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 294.64 50.8 270)
 		(unit 1)
 		(body_style 1)
@@ -11788,176 +11894,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 41.91 196.85 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e0c2608c-d9b6-4d98-9f4c-3a1cbc3e0e50")
-		(property "Reference" "R11"
-			(at 41.91 190.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "200"
-			(at 41.91 193.548 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 198.628 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 41.91 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "15cc6874-db7d-432f-b860-e30e948595d5")
-		)
-		(pin "1"
-			(uuid "9e6cc021-1e89-4318-9d5e-2d5793a0f16c")
-		)
-		(instances
-			(project "pinkman"
-				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 34.29 196.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1cb4d86-b490-4110-9713-dcc517a801dc")
-		(property "Reference" "D2"
-			(at 32.7025 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Green LED"
-			(at 32.7025 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 34.29 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 34.29 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "46c79dd4-3e8f-425f-9165-84c422003eb1")
-		)
-		(pin "1"
-			(uuid "89e2fca4-6134-43a2-92d1-e331a098afcd")
-		)
-		(instances
-			(project "pinkman"
-				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 204.47 223.52 0)
 		(unit 1)
@@ -11991,7 +11927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 205.4352 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -12677,7 +12613,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7c38403-0b1f-4a51-aafa-b1eed2f560f8")
-		(property "Reference" "Radio"
+		(property "Reference" "U4"
 			(at 317.5 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12699,7 +12635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Pinkman Local:RA-02_AIT"
+		(property "Footprint" "Pinkman Footprints:RA-02_AIT"
 			(at 294.64 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -12793,7 +12729,7 @@
 		(instances
 			(project "pinkman"
 				(path "/52ec5281-98f9-4967-92c1-b39f2426ce6f"
-					(reference "Radio")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12912,7 +12848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 294.3352 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12994,7 +12930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 242.2652 224.79 0)
 			(hide yes)
 			(show_name no)
