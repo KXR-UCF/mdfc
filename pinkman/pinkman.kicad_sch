@@ -8051,7 +8051,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 276.86 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9426,7 +9426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 100.838 36.83 90)
 			(hide yes)
 			(show_name no)
@@ -13718,7 +13718,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, ceramic"
 			(at 293.37 215.9 0)
 			(hide yes)
 			(show_name no)

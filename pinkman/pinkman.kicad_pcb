@@ -4772,7 +4772,7 @@
 	(footprint "Pinkman Footprints:RA-02_AIT"
 		(layer "F.Cu")
 		(uuid "5c737e57-920c-4d7b-8c8b-7e2075d1e0e2")
-		(at 43.5664 85.3265)
+		(at 97.5 25)
 		(tags "RA-02 ")
 		(property "Reference" "U4"
 			(at 0 0 0)
@@ -6773,7 +6773,7 @@
 	(footprint "Pinkman Footprints:MOD18_MAX-M10M_UBL"
 		(layer "F.Cu")
 		(uuid "7a7d48a5-782b-4a2f-8c7e-793bfca44b53")
-		(at 59.8748 81.8848)
+		(at 98.5 42)
 		(tags "MAX-M10M-00B ")
 		(property "Reference" "U3"
 			(at 0 0 0)
